@@ -13,7 +13,7 @@ public class Listener {
 	public void listen(ConsumerRecord<?, ?> record) {
 		System.out.println(record);
 		Object payload = record.value();
-		System.out.println(paylo);
+		System.out.println(payload);
 		countDownLatch1.countDown();
 	}
 
