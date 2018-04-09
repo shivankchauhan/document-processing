@@ -7,6 +7,8 @@ https://dzone.com/articles/running-apache-kafka-on-windows-os
 stream api
 https://github.com/anuj1207/kafka-stream-sample
 
+https://asprise.com/ocr/docs/html/asprise-ocr-api-java.html
+
 Setting up Kafka :-
 
 1. Download kafka broker.
