@@ -9,7 +9,7 @@ public class Listener {
 
 	public final CountDownLatch countDownLatch1 = new CountDownLatch(1);
 
-	@KafkaListener(id = "foo", topics = "topic1", group = "group1")
+	@KafkaListener(id = "foo", topics = "topic2", group = "group1")
 	public void listen(ConsumerRecord<?, ?> record) {
 		System.out.println(record);
 		Object payload = record.value();
