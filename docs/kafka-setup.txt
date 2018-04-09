@@ -1,0 +1,21 @@
+Code:-
+https://github.com/howtoprogram/apache-kafka-examples
+
+starting kafka
+https://dzone.com/articles/running-apache-kafka-on-windows-os
+
+
+Setting up Kafka :-
+
+1. Download kafka broker.
+
+Starting zookeeper
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+Starting kafka
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+Creating a topic
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+
+
